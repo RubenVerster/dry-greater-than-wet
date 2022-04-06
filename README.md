@@ -97,7 +97,7 @@ const renderRightLinks = () => {
     >
       {Object.keys(PAGES).map((key) => {
         return (
-          <h3 key={key}>
+          <h3 key={key}
             className=
             {`mb-0 ${
               location.pathname.includes(PAGES[key])
@@ -109,7 +109,8 @@ const renderRightLinks = () => {
             {() => {
               history.push(PAGES[key]);
             }}
-            >{key}
+           >
+            {key}
           </h3>
         );
       })}
