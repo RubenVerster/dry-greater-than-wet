@@ -6,7 +6,8 @@ Please note that this is given in the example of a React application :)
 
 Take this code for example:
 
-```<div
+```
+<div
   style={{
     display: "flex",
     flexDirection: "row",
